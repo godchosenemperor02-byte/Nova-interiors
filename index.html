@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Nova Space Interiors — Home Décor &amp; Office Interiors, Abuja</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="site-header" id="site-header">
+  <a href="#top" class="brand">
+    <img src="logo.jpg" alt="" style="width:40px; border-radius: 10px;"/>
+    <span class="brand-name">Nova&nbsp;Space<em>Interiors</em></span>
+  </a>
+  <nav class="main-nav" id="main-nav">
+    <a href="#top">Home</a>
+    <a href="#about">About</a>
+    <a href="#shop">Products</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button class="cart-btn" onclick="toggleCart(true)" aria-label="Open cart">
+    Cart <span class="cart-badge" id="cart-count">0</span>
+  </button>
+  <button class="nav-toggle" id="nav-toggle" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="hero-copy">
+    <p class="hero-kicker">Wetland Plaza, Jabi, Abuja</p>
+    <h1>Spaces worth<br>coming home to.</h1>
+    <p class="hero-lead">Nova Space Interiors sources and sells timeless décor pieces — for the homes and offices you're building, one shelf at a time.</p>
+    <div class="hero-actions">
+      <a href="#shop" class="btn btn-dark">Shop the collection</a>
+      <a href="#about" class="btn btn-ghost">Our story</a>
+    </div>
+  </div>
+  <div class="hero-art">
+    <div class="hero-img hero-img-a"></div>
+    <div class="hero-img hero-img-b"></div>
+    <div class="hero-tag-card">
+      <span class="hero-tag-num">155+</span>
+      <span class="hero-tag-label">pieces</span>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="about-media">
+    <div class="about-img"></div>
+  </div>
+  <div class="about-copy">
+    <p class="section-kicker">About Nova Space</p>
+    <h2>Creating spaces,<br>creating comfort.</h2>
+    <p>We're a home décor and office interiors studio based in Jabi, Abuja — run by a small team who believe a well-placed vase or the right shelf can change how a room feels.</p>
+    <p>Every piece we stock is chosen for the same three things: it should be stylish, it should be functional, and it should still look right in five years. That's the whole brief.</p>
+    <div class="about-stats">
+      <div><strong>2,200+</strong><span>Instagram community</span></div>
+      <div><strong>Home&nbsp;&amp;&nbsp;Office</strong><span>every room, covered</span></div>
+      <div><strong>DM&nbsp;or&nbsp;visit</strong><span>consultations by request</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- HIGHLIGHTS -->
+<section class="highlights">
+  <div class="highlight">
+    <span class="highlight-icon" aria-hidden="true">◇</span>
+    <h3>Stylish</h3>
+    <p>Pieces picked for how they sit in a room, not just how they photograph.</p>
+  </div>
+  <div class="highlight">
+    <span class="highlight-icon" aria-hidden="true">▢</span>
+    <h3>Functional</h3>
+    <p>Storage, seating and shelving that earns its space, not just decor for decor's sake.</p>
+  </div>
+  <div class="highlight">
+    <span class="highlight-icon" aria-hidden="true">↻</span>
+    <h3>Timeless</h3>
+    <p>Nothing trend-locked — pieces you'll still like long after the trend has passed.</p>
+  </div>
+  <div class="highlight">
+    <span class="highlight-icon" aria-hidden="true">◎</span>
+    <h3>Abuja pickup &amp; delivery</h3>
+    <p>Visit us at Wetland Plaza, Jabi, or have your order brought to you.</p>
+  </div>
+</section>
+
+<!-- SHOP -->
+<section class="shop" id="shop">
+  <div class="section-title">
+    <div>
+      <p class="section-kicker">The collection</p>
+      <h2>Shop our décor pieces</h2>
+    </div>
+    <p class="shop-note">Tap a piece to add it, then send your order straight to us on WhatsApp.</p>
+  </div>
+
+  <div class="shop-filters" id="shop-filters"></div>
+  <div class="products-grid" id="products-grid"></div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <p class="section-kicker section-kicker-light">What we do</p>
+  <h2>More than a shop front</h2>
+  <div class="services-grid">
+    <div class="service-card">
+      <h3>Home décor</h3>
+      <p>Vases, artificial florals, ornaments and accent pieces to finish a room.</p>
+    </div>
+    <div class="service-card">
+      <h3>Office interiors</h3>
+      <p>Practical, presentable pieces for reception areas, desks and shared spaces.</p>
+    </div>
+    <div class="service-card">
+      <h3>Styling consultations</h3>
+      <p>Not sure what a space needs? DM us and we'll help you put it together.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="contact-info">
+    <p class="section-kicker">Get in touch</p>
+    <h2>Visit the showroom<br>or send a message</h2>
+    <ul class="contact-list">
+      <li><span>Address</span>Wetland Plaza, Jabi, Abuja</li>
+      <li><span>Phone</span><a href="tel:+2349040832250">0904 083 2250</a></li>
+      <li><span>Instagram</span><a href="https://instagram.com/novaspaceinteriors_" target="_blank" rel="noopener">@novaspaceinteriors_</a></li>
+    </ul>
+    <a class="btn btn-dark" href="https://wa.me/2349040832250" target="_blank" rel="noopener">Message us on WhatsApp</a>
+  </div>
+  <div class="contact-map" aria-hidden="true">
+    <div class="map-pin"></div>
+  </div>
+</section>
+
+<!-- CART DRAWER -->
+<div class="cart-drawer-overlay" id="cart-overlay" onclick="toggleCart(false)"></div>
+<aside class="cart-drawer" id="cart-drawer">
+  <div class="cart-header">
+    <h3>Your order</h3>
+    <button class="close-cart" onclick="toggleCart(false)" aria-label="Close cart">&times;</button>
+  </div>
+  <div class="cart-items" id="cart-items"></div>
+  <div class="cart-footer">
+    <div class="cart-total"><span>Total</span><span id="cart-total-price">₦0</span></div>
+    <button class="checkout-btn" onclick="checkoutWhatsApp()">Order via WhatsApp</button>
+  </div>
+</aside>
+
+<footer class="site-footer">
+  <div class="footer-brand">
+    <span class="brand-mark brand-mark-light">N</span>
+    <p>Nova Space Interiors<br>Creating spaces, creating comfort.</p>
+  </div>
+  <div class="footer-col">
+    <h4>Shop</h4>
+    <a href="#shop">All décor</a>
+    <a href="#about">About us</a>
+    <a href="#services">Services</a>
+  </div>
+  <div class="footer-col">
+    <h4>Contact</h4>
+    <p>Wetland Plaza, Jabi, Abuja</p>
+    <p>0904 083 2250</p>
+    <a href="https://instagram.com/novaspaceinteriors_" target="_blank" rel="noopener">@novaspaceinteriors_</a>
+  </div>
+  <div class="footer-bottom">© 2026 Nova Space Interiors. All rights reserved.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
